@@ -1,4 +1,4 @@
-# GitHub Actions Secret Manager
+# GH Secrets CLI
 
 A local CLI tool to easily manage GitHub Actions secrets without using the web interface.
 
@@ -72,13 +72,13 @@ Create a Personal Access Token with required scopes:
 **Option 1: Using npx (No installation needed)**
 
 ```bash
-npx gh-actions-secrets
+npx gh-secrets-cli
 ```
 
 **Option 2: Global Installation**
 
 ```bash
-npm install -g gh-actions-secrets
+npm install -g gh-secrets-cli
 ```
 
 Then run anywhere:
@@ -91,8 +91,8 @@ gh-secret-cli
 
 ```bash
 # Clone the repository
-git clone https://github.com/jbacule/gh-actions-secrets.git
-cd gh-actions-secrets
+git clone https://github.com/jbacule/gh-secrets-cli.git
+cd gh-secrets-cli
 
 # Install dependencies
 pnpm install
