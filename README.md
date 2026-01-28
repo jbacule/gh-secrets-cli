@@ -16,6 +16,52 @@ A local CLI tool to easily manage GitHub Actions secrets without using the web i
 - ✅ No database - completely local
 - ✅ Secure password masking for sensitive input
 
+## Installation
+
+### For End Users
+
+**Option 1: Using npx (No installation needed)**
+
+```bash
+npx gh-secrets-cli
+```
+
+**Option 2: Global Installation**
+
+```bash
+npm install -g gh-secrets-cli
+```
+
+Then run anywhere:
+
+```bash
+gh-secret-cli
+```
+
+### For Development
+
+```bash
+# Clone the repository
+git clone https://github.com/jbacule/gh-secrets-cli.git
+cd gh-secrets-cli
+
+# Install dependencies
+pnpm install
+
+# Run in development mode
+pnpm start
+
+# Build for production
+pnpm build
+```
+
+## Usage
+
+```bash
+# Start the CLI
+pnpm start
+```
+
 ## Prerequisites
 
 - Node.js 18+ installed
@@ -64,52 +110,6 @@ Create a Personal Access Token with required scopes:
 - Just run the app and choose "OAuth Device Flow"
 - No need to create your own OAuth App
 - Optional: Use your own OAuth App if desired
-
-## Installation
-
-### For End Users
-
-**Option 1: Using npx (No installation needed)**
-
-```bash
-npx gh-secrets-cli
-```
-
-**Option 2: Global Installation**
-
-```bash
-npm install -g gh-secrets-cli
-```
-
-Then run anywhere:
-
-```bash
-gh-secret-cli
-```
-
-### For Development
-
-```bash
-# Clone the repository
-git clone https://github.com/jbacule/gh-secrets-cli.git
-cd gh-secrets-cli
-
-# Install dependencies
-pnpm install
-
-# Run in development mode
-pnpm start
-
-# Build for production
-pnpm build
-```
-
-## Usage
-
-```bash
-# Start the CLI
-pnpm start
-```
 
 ### Authentication Flow
 
