@@ -91,7 +91,7 @@ gh-secret-cli
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/gh-actions-secrets.git
+git clone https://github.com/jbacule/gh-actions-secrets.git
 cd gh-actions-secrets
 
 # Install dependencies
@@ -201,4 +201,4 @@ Then use the "Upload Secrets from .env File" option to batch upload all secrets 
 
 ## License
 
-ISC
+[MIT LICENSE](./LICENSE)
